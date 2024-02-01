@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/imagelock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/ad1textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/onemyadepterborder"
+        android:fontFamily="@font/chalk"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
